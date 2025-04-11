@@ -22,7 +22,7 @@ This project is a Node.js server that provides a service to fetch URLs. It is pa
 ## Usage
 
 ```bash
-node /Users/alicuche/Workspace/personal/mcp-fetch-url/server.js
+node server.js
 ```
 
 This will start the server, and it will be ready to fetch URLs as part of the MCP system.
@@ -39,7 +39,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 {
  "mcpServers": {
     "fetch_url":   {
-      "command": "node /Users/alicuche/Workspace/personal/mcp-fetch-url/server.js"
+      "command": "node [directory]/server.js"
     }
   }
 }
